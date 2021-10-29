@@ -40,6 +40,11 @@ function createProjects() {
 
     gProjects.push(createProject('canvas', 'Canvas And Touch', 'Create amazing pictures  ', 'My work with canvas in css and touch screen and events',
         'https://eligranat.github.io/canvasAndTouch/', 'https://github.com/EliGranat/canvasAndTouch', ['JavaScript 68.7%', 'CSS 9.4%', 'HTML 21.9%'], '2021-10-27'))
+
+    gProjects.push(createProject('memes', 'Memes On Canvas', 'Create amazing Memes And Share  ', 'My Amazing work with canvas in css and touch screen responsive with any device',
+        'https://eligranat.github.io/CreateMeme/', 'https://github.com/EliGranat/CreateMeme', ['JavaScript 39.6%', 'CSS 9.4%', 'HTML 42.6%'], '2021-10-29'))
+
+
 }
 
 
