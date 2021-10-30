@@ -4,7 +4,6 @@ $(init)
 function init() {
     randerPortfolio()
     $(' .btn-send-mail').click(onSendMsg)
-    loadingPage()
 
 }
 
@@ -64,11 +63,4 @@ function onSendMsg() {
     var msgUser = $('.body-msg-user').val()
 
     window.open(`https://mail.google.com/mail/?view=cm&fs=1&to= granat1710@gmail.com&su=${subjectUser} &body=${mailUser +" : "+ msgUser}`)
-}
-
-function loadingPage() {
-    const elbackground = document.querySelector('.background-loading-page')
-    setTimeout(function() {
-        elbackground.style.backgroundimage = ''
-    }, 2000)
 }
